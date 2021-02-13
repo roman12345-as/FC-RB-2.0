@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700,900&subset=cyrillic");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i&subset=cyrillic');
+
+@keyframes header_anim {
+  from {
+    transform: translateX(-120%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.main{
+    margin-top: -8px;
+    margin-left: -9px;
+}
+
+.emblem{
+    position: absolute;
+    margin-top: -170px;
+    margin-left: 15px;
+    transform: translateX(0);
+    animation-name: header_anim;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    text-transform: uppercase;
+    color: #fff;
+    align-self: center;
+}
+
+@keyframes header_text {
+  from {
+    transform: translateX(-120%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.main{
+    margin-top: -8px;
+    margin-left: -9px;
+}
+
+.title{
+    font-family: "Times New Roman", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 180px;
+    margin-top: -140px;
+    transform: translateX(0);
+    animation-name: header_text;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    text-transform: uppercase;
+    color: #fff;
+    align-self: center;
+}
+
+.Aldik{
+    margin-left: 15px;
+    margin-top: 150px;
+}
+
+.Aldik-2{
+    margin-left: 15px;
+    margin-top: 50px;
+}
+
+.t-1{
+    font-family: "Times New Roman", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 95px;
+    margin-left: 195px;
+}
+
+.T-1{
+    font-family: "Times New Roman", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: -125px;
+    margin-left: 195px;
+}
+
+.Egor{
+    margin-left: 15px;
+    margin-top: 160px;
+}
+
+.t-2{
+    font-family: "Times New Roman", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: -85px;
+    margin-left: 195px;
+}
+
+@keyframes players {
+  from {
+    transform: translateX(-270%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.players{
+    font-family: "Times New Roman", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-left: 180px;
+    position: absolute;
+    margin-top: 35px;
+    transform: translateX(0);
+    animation-name: players;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+@keyframes trophies{
+  from {
+    transform: translateX(-570%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.trophies{
+    font-family: "Times New Roman", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-left: 500px;
+    position: absolute;
+    margin-top: 35px;
+    transform: translateX(0);
+    animation-name: trophies;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+@keyframes vkontakte{
+  from {
+    transform: translateX(-570%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.VK{
+    font-family: "Times New Roman", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-left: 820px;
+    position: absolute;
+    margin-top: 35px;
+    transform: translateX(0);
+    animation-name: vkontakte;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+@keyframes instagram{
+  from {
+    transform: translateX(-1270%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+
+.INSTA{
+    font-family: "Times New Roman", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-left: 1140px;
+    position: absolute;
+    margin-top: 35px;
+    transform: translateX(0);
+    animation-name: instagram;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.players-title{
+    margin-top: 120px;
+    font-family: "Times New Roman", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+    text-align: center
+}
+
+.trophies-title{
+    margin-top: 120px;
+    font-family: "Times New Roman", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+    text-align: center
+}
+
+.members{
+  flex-wrap: wrap;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 28px;
+}
+
+.member-name {
+  margin: 0;
+  margin-top: 12px;
+  font-size: 18px;
+  margin-left: -40px;
+}
+
+.borisov{
+    margin-left: 35px;
+}
+
+.gleizer{
+    margin-left: 35px;
+}
+
+.bridixin{
+    margin-left: 39px;
+}
+
+.loftfallya{
+    margin-left: 39px;
+}
+
+.una{
+    margin-left: 35px;
+}
+
+.kaleka{
+    margin-left: 30px;
+}
+
+.sema{
+    margin-left: 39px;
+}
+
+.member-name-1{
+  margin: 0;
+  margin-top: 12px;
+  font-size: 18px;
+  margin-left: 480px;
+}
+
+.kair{
+    margin-left: 550px;
+}
+
+
+.chemp-2019{
+    text-align: center;
+}
+
+.chemp-2019-photo{
+    display:block;
+    margin:auto;
+}
+
+
+.chemp-2020{
+    text-align: center;
+}
+
+.chemp-2020-photo{
+    display:block;
+    margin:auto;
+}
